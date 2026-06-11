@@ -1,6 +1,6 @@
 const WHATSAPP_NUMBER = "6289654540785";
 const DEFAULT_MESSAGE =
-  "Halo, saya mau beli e-book 100 Juta Pertama dari Gaji UMR harga launching Rp19.000. Mohon info cara pembayarannya.";
+  "Halo saya mau beli paket lengkap 100 Juta Pertama dari Gaji UMR";
 
 function buildWhatsappUrl(message = DEFAULT_MESSAGE) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
