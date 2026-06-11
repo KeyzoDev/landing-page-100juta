@@ -187,6 +187,22 @@ h3 {
   font-weight: 800;
 }
 
+.urgency-copy {
+  margin: -6px 0 22px;
+  padding: 12px 14px;
+  border: 1px solid rgba(246, 196, 83, 0.7);
+  border-radius: var(--radius);
+  color: var(--primary-dark);
+  background: rgba(246, 196, 83, 0.18);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.urgency-copy.compact {
+  margin: 14px 0 0;
+  font-size: 0.9rem;
+}
+
 .hero-actions {
   display: grid;
   gap: 12px;
@@ -323,7 +339,7 @@ h3 {
 .cover-chart span:nth-child(4) { height: 100%; }
 
 .template-card,
-.target-card {
+target-card {
   position: absolute;
   right: 0;
   width: min(72vw, 260px);
