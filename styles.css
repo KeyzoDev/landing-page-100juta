@@ -339,7 +339,7 @@ h3 {
 .cover-chart span:nth-child(4) { height: 100%; }
 
 .template-card,
-target-card {
+.target-card {
   position: absolute;
   right: 0;
   width: min(72vw, 260px);
